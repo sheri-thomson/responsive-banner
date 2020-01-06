@@ -4,6 +4,7 @@ html {
 
 .banner-content {
   background-color: #495562;
+  color: #fff;
 }
 
 .btn {
@@ -22,11 +23,11 @@ html {
 
 @media only screen and (min-width: 60em) {
 
-.banner-content{
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  background-color: transparent;
-}
+  .banner-content {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+  }
 
 }
