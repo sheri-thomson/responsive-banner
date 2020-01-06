@@ -1,4 +1,32 @@
 html {
   font: normal 100%/1.3 "Georgia", serif;
+}
+
+.banner-content {
+  background-color: #495562;
+}
+
+.btn {
   color: #fff;
+  border-color: #fff;
+}
+
+.btn:hover {
+  color: #495562;
+  border-color: #fff;
+}
+
+.banner {
+  position: relative;
+}
+
+@media only screen and (min-width: 60em) {
+
+.banner-content{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: transparent;
+}
+
 }
